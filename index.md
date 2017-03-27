@@ -1,37 +1,28 @@
-## Cheyenne Payne
+# Cheyenne Payne
+## MarineBio + CS @ UCSD
 
-You can use the [editor on GitHub](https://github.com/cypayne/website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I study evolution and bioluminescence in marine invertebrates and develop phylogenetics tools.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[CV](file:///Users/cheyennepayne/Downloads/cheyenne-payne-cv%20(6).pdf)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Current Projects
 
-```markdown
-Syntax highlighted code block
+**New *Xyloplax***
+Rouse Lab @ SIO
+Visit my [Marine Invertebrates Lab bio](http://www.spineless.info/cheyenne-payne.html).
 
-# Header 1
-## Header 2
-### Header 3
+**Biochemistry of new octocoral bioluminescence**
+Deheyn Lab @ SIO
 
-- Bulleted
-- List
+**DiscoVista**
+Mirarab Lab @ UCSD
+Visit the [DiscoVista](https://github.com/esayyari/DiscoVista) repo.
 
-1. Numbered
-2. List
+**CIPRES notebooks**
+CIPRES @ SDSC
+Visit the [CIPRES-notebooks](https://github.com/cypayne/CIPRES-notebooks) repo.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cypayne/website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Contact
+Please contact me at **cypayne [at] ucsd [dot] edu**.
