@@ -3,7 +3,7 @@
 
 I study evolution and bioluminescence in marine invertebrates and develop phylogenetics tools.
 
-**[CV](file:///Users/cheyennepayne/Downloads/cheyenne-payne-cv%20(6).pdf)**
+[CV](http://www.spineless.info/uploads/2/3/9/0/23905798/cheyenne-payne-cv__7_.pdf)
 
 
 ## Current Projects
