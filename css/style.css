@@ -1,0 +1,229 @@
+#headshot {
+  margin-top: 2vh;
+  float: center;
+}
+
+#header {
+  clear:both;
+  text-align: center;
+  background-color: rgba(223, 237, 223, 0.25);
+  background-image: url("../images/tree-drawing.svg"); 
+  background-position:left;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+}
+#content {
+  clear:both;
+  width:90%;
+  max-width: 80ch;
+  float: left;
+  margin:10px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-image: url("../images/website-background.svg"); 
+  background-repeat: no-repeat;
+}
+#credits {
+  color: #102E46;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#legend { 
+  font-size: 14px;
+  text-align: center;
+}
+
+/* font and color typings */
+/* default sizing is for mobile phones */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #0C3450;
+}
+h1 {
+  font-family: 'Amatic SC', sans-serif;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 32px;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #fd7c6e;
+}
+
+/* for desktop */
+@media only screen and (min-width: 900px) {
+  body {
+      margin-top: 0%;
+      font-size: 20px;
+  }
+  h1 {
+      font-size: 48px;
+  }
+  h2 {
+      font-size: 32px;
+  }
+  h3 {
+      font-size: 26px;
+  }
+  #header {
+      width: 300px; 
+      height: 100vh;
+      float: left;
+      position: fixed;
+  }
+  #content {
+      width: 60%; 
+      float: right;
+      display: inline-block;
+
+  }
+  #headshot {
+      width: 250px;
+      height: auto;
+      float: center;
+      margin-top: 10vh;
+  }
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* formatting for the research section */
+#current-projects {
+  background-repeat: no-repeat;
+}
+
+#past-projects {
+  background-image: url("../images/just-stump.svg"); 
+  background-repeat: no-repeat;
+  padding-top: 2%;
+}
+.indented {
+  padding-left: 20pt;
+  padding-right: 10pt;
+  font-size: 18px;
+}
+.laligned {
+  text-align: left;
+  padding-left: 10pt;
+  font-size: 20px;
+
+}
+.imgme {
+  border: 2px solid white;
+}
+.img-circle {
+  border-radius: 50%;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Menu */
+.menu a {
+  padding: 10px;
+  text-decoration: none;
+  color: #274923;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #fd7c6e;
+}
+
+/* single row photos */
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Collapsibles */
+.collapsible {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: 'Amatic SC', sans-serif;
+  color: #fa8072;
+  font-size: 28px;
+  font-weight: 900;
+}
+.active, .collapsible:hover {
+  background-color: rgba(178, 194, 178, 0.85);
+  color: white;
+  font-weight: 900;
+}
+.collapseContent {
+  padding: 0 18px;
+  background-color: rgba(223, 237, 223, 0.75);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/* photos */
+.fish-photo {
+  clear: both;
+  float: right;
+  padding: 6px;
+  margin-bottom: -2px;
+}
+
+.cline-schematic {
+  float: left;
+  padding-right: 10px;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* text blocks */
+.text-block {
+}
