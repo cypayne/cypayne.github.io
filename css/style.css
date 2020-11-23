@@ -7,8 +7,9 @@
   clear:both;
   text-align: center;
   background-color: rgba(223, 237, 223, 0.25);
-  background-image: url("../images/tree-drawing.svg"); 
-  background-position:left;
+  background-image: url("https://i.imgur.com/t6OwRdI.png"); 
+  background-position: bottom left;
+  background-size: 20%;
   background-repeat: no-repeat;
   padding-bottom: 10px;
 }
@@ -20,7 +21,8 @@
   margin:10px;
   margin-right: 5%;
   margin-left: 5%;
-  background-image: url("../images/website-background.svg"); 
+  background-image: url("https://i.imgur.com/uRBClNc.jpg"); 
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 #credits {
@@ -81,6 +83,7 @@ a {
   #header {
       width: 300px; 
       height: 100vh;
+      background-size: 34%;
       float: left;
       position: fixed;
   }
@@ -113,7 +116,9 @@ ol {
 }
 
 #past-projects {
-  background-image: url("../images/just-stump.svg"); 
+  background-image: url("https://i.imgur.com/rCRh8Ib.jpg"); 
+  background-size: 120%;
+  background-position: 30px 80px;
   background-repeat: no-repeat;
   padding-top: 2%;
 }
